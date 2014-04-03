@@ -9,7 +9,7 @@ from dateutil import tz
 #curl -v -c cookies.txt -d "username=Username&password=password&login=true&redirectMethod=POST&product=home.betfair.int&url=https://www.betfair.com/" https://identitysso.betfair.com/api/login >out.txt 2>&1
 #https://api-ng.betstores.com/account/
 
-APP_KEY = 'kIaoqDlc9U16k17x'
+APP_KEY = 'YOUR_API_KEY'
 
 
 class BfApi(object):
